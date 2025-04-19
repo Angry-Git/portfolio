@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Seth Pommer</title>
+
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+</head>
+<body>
+
+    <nav class="top-nav">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+    </nav>
+
+    <header>
+        <img src="images/portfolioLogo.png" alt="SP Logo" class="logo-image">
+        <p class="tagline">The best thing<br>since sliced bread</p>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <hr>
+            <p>
+                My name is Seth and I’m a senior at UW–Eau Claire studying Software Engineering, with experience in full-stack development, deep learning, web development, and more. I’ve worked on a variety of projects involving JavaScript, Python, HTML/CSS, PHP, Java, C++, and machine learning frameworks. I’m driven by curiosity and always looking to improve my skills while working on meaningful and engaging projects.
+                Besides computers and coding, I’m into Warhammer and enjoy painting and playing the game when I get the chance. I play some electric guitar and know Russain on an intermediate level as well.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <hr>
+            <div class="edu-grid">
+              <div>
+                <p>Bachelor of Science – Software Engineering</p>
+                <p>Minor in Religious Studies</p>
+              </div>
+              <div>
+                <p>University of Wisconsin – Eau Claire</p>
+                <p>Graduation: Spring 2025</p>
+              </div>
+            </div>
+          </section>
+          
+          <section id="projects">
+            <h2>Projects</h2>
+            <hr>
+            <article class="project">
+              <h3>Music Genre Classification<br><br></h3>
+              <img src="images/waveform.jpeg" alt="Waveform Visualization" class="project-image">
+              <p>
+                <br><br>This group project focused on classifying music genres using deep learning techniques, including both LSTM and Transformer-based models. We began by preprocessing raw audio data into mel spectrograms to better represent frequency and time-based patterns within the music. To improve generalization and model robustness, we applied data augmentation techniques such as time shifting, noise injection, and pitch alterations.
+                <br><br>
+                Throughout the project, we trained and evaluated the models using performance metrics like accuracy, confusion matrices, and loss curves. The LSTM was effective in capturing temporal patterns, while the Transformer architecture offered advantages in parallel processing and learning long-range dependencies.
+                <br><br>
+                The project provided hands-on experience with sequential data processing, model tuning, and cross-validation, as well as collaboration in a machine learning pipeline from data preprocessing to model deployment. This application of deep learning in audio classification highlighted the challenges and possibilities of using neural networks in creative and complex domains.
+                <br><br>
+              </p>
+            </article>
+
+            <article class="project">
+                <h3>Bear Warfare<br><br></h3>
+                <img src="images/beargame.png" alt="Bear Warfare Home Page" class="project-image">
+                <p>
+                  <br><br>This group project involved developing a web-based, turn-based strategy game inspired by the mechanics of Worms, where players control bears using projectile-based attacks. Built using the Phaser JavaScript game framework and hosted locally with XAMPP, the game integrated technologies including HTML/CSS for the interface and Git for version control.
+                  <br><br>
+                  The project provided experience with JavaScript-based game logic, player input handling, and implementing turn-based mechanics. In addition to strengthening front-end development skills, the project offered practical exposure to local server setup, collaborative development workflows, and the coordination of multiple technologies within a browser-based game environment.
+                  <br><br>
+                </p>
+              </article>
+
+              <article class="project">
+                <h3>Warhammer Haven<br><br></h3>
+                <img src="images/warhammer.png" alt="Warhammer Haven Home Screen" class="project-image">
+                <p>
+                  <br><br>This group project focused on building a Warhammer-themed website that allowed users to explore lore for each faction and create custom army lists. The site was developed using HTML, CSS, and JavaScript, with XAMPP providing the local server environment and PHP handling back-end functionality and database integration. Key features included dynamic content loading, interactive UI components, and a streamlined system for saving and managing user-created army lists.
+                  <br><br>
+                  This project offered valuable experience with full-stack development and deepened my understanding of how front-end and back-end technologies work together. From designing the interface to managing dynamic data flow through PHP and MySQL, the project sharpened my problem-solving skills and strengthened my ability to build interactive, data-driven web applications.
+                  <br><br>
+                </p>
+              </article>
+          </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+          <img src="images/portfolioLogo.png" alt="SP Logo" class="footer-logo-image">
+          <p class="contact">Contact: pommersw2101@uwec.edu</p>
+        </div>
+    </footer>      
+      
+</body>
+</html>
